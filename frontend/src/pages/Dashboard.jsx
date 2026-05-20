@@ -37,8 +37,7 @@ export default function Dashboard() {
 
         await fetch(
 
-          `http://localhost:1971/portfolio/${user.email}`
-
+`${import.meta.env.VITE_API_URL}/portfolio/${user.email}`,
         );
 
         const portfolioData =
@@ -55,8 +54,7 @@ export default function Dashboard() {
 
         await fetch(
 
-          `http://localhost:1971/watchlist/${user.email}`
-
+`${import.meta.env.VITE_API_URL}/watchlist/${user.email}`
         );
 
         const watchlistData =

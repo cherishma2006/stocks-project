@@ -37,8 +37,7 @@ export default function Register() {
       const response =
       await fetch(
 
-        "http://localhost:1971/auth/register",
-
+`${import.meta.env.VITE_API_URL}/auth/register`,
         {
 
           method: "POST",

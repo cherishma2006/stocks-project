@@ -48,9 +48,7 @@ export default function Portfolio() {
         const response =
 
         await fetch(
-
-          `http://localhost:1971/portfolio/${user.email}`
-
+`${import.meta.env.VITE_API_URL}/portfolio/${user.email}`,
         );
 
         const data =
@@ -87,8 +85,7 @@ export default function Portfolio() {
 
       await fetch(
 
-        `http://localhost:1971/portfolio/${id}`,
-
+`${import.meta.env.VITE_API_URL}/portfolio/${id}`,
         {
 
           method: "DELETE",

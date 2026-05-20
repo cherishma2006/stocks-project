@@ -32,8 +32,7 @@ export default function Watchlist() {
 
         await fetch(
 
-          `http://localhost:1971/watchlist/${user.email}`
-
+fetch(`${import.meta.env.VITE_API_URL}/watchlist/${user.email}`),
         );
 
         const data =

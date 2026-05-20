@@ -75,8 +75,7 @@ export default function Stocks() {
 
       const response = await fetch(
 
-        "http://localhost:1971/portfolio/buy",
-
+`${import.meta.env.VITE_API_URL}/portfolio/buy`,
         {
 
           method: "POST",
@@ -185,8 +184,7 @@ export default function Stocks() {
 
       await fetch(
 
-        "http://localhost:1971/watchlist/add",
-
+`${import.meta.env.VITE_API_URL}/watchlist/add`,
         {
 
           method: "POST",
