@@ -28,12 +28,9 @@ export default function Watchlist() {
 
         );
 
-        const response =
-
-        await fetch(
-
-fetch(`${import.meta.env.VITE_API_URL}/watchlist/${user.email}`),
-        );
+        const response = await fetch(
+  `${import.meta.env.VITE_API_URL}/watchlist/${user.email}`
+);
 
         const data =
 
