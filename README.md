@@ -34,6 +34,18 @@ The project allows users to monitor stock prices, manage portfolios, and create 
 - Full Stack Deployment
 
 ---
+# Stock Symbols Used
+
+| Company | Symbol |
+|----------|--------|
+| Apple | AAPL |
+| Amazon | AMZN |
+| Tesla | TSLA |
+| Microsoft | MSFT |
+| Google | GOOGL |
+| Nvidia | NVDA |
+
+These symbols can be searched in the Stocks page to view stock prices and add them to portfolio/watchlist.
 
 # Folder Structure 
 
